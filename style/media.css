@@ -1,0 +1,447 @@
+
+@media(max-width: 1550px){
+    .game__swiper {
+        width: clamp(200px, 26vw, 500px);
+        height: clamp(208px, 23vw, 520px);
+    }
+    .game__right{
+        margin-left: 50px;
+    }
+    .game__center{
+        margin-bottom: 30px;
+    }
+    .history__intro-img {
+        max-width: 570px;
+    }
+    .catalog__cards {
+        gap: 30px;
+    }
+    .news__item-info {
+        gap: 5px;
+    }
+    .news__item-img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+}
+
+@media(max-width: 1170px){
+    .intro__link{
+        padding: 5px 0;
+    }
+    .experience_wrap{
+        justify-content: space-between;
+    }
+    .cell{
+        width: 76px;
+        height: 76px;
+    }
+    .footer-wrap {
+        justify-content: center;
+    }
+    .footer__social-media{
+        margin-left: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .layers__container{
+        height: 50vh;
+    }
+    .hero-content{
+        margin-top: 150px;
+    }
+    .layers__item{
+        display: none;
+    }
+    .layer-5{
+        display: flex;
+    }
+    .hero-content__p{
+        margin: 0 20px 20px 20px;
+    }
+    .layers__about-us{
+        background: url(/img/about-main-section/background6.jpg) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .history__intro {
+        flex-direction: column;
+        align-items: center;
+    }
+    .history__intro-text{
+        text-align: left;
+    }
+    .chronology__block{
+        padding-left: 0;
+    }
+    .chronology__img{
+        position: relative;
+        max-width: 350px;
+    }
+    .chronology__img-border-1 {
+        inset: 52px;
+    }
+    .chronology__img-border-2 {
+        inset: 32px;
+    }
+    .colloborators{
+        padding: 0;
+    }
+    .layers__container-projects{
+        background: url(/img/projects-inro-1.png) center top;
+        background-size: cover;
+    }
+    .catalog__cards{
+        justify-content: center;
+    }
+    .news__item-img {
+        max-width: 700px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .news__item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-auto-rows: 160px;
+    }
+    .news__elem-top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .chronology__block{
+        flex-wrap: wrap;
+    }
+    .chronology__block span{
+        order: 1;
+    }
+    .chronology__img-wrap{
+        order: 2;
+        margin-bottom: 40px;
+        padding: 60px;
+    }
+    .chronology__text{
+        order: 3;
+    }
+    .colloborators{
+        justify-content: center;
+    }
+    .gallery{
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-auto-rows: 120px;
+    }
+    .studio__block {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .studio__block-img{
+        order: 1;
+    }
+    .news__elem-1 {
+        padding: 10px;
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header__list {
+        gap: 20px;
+    }
+    .intro__link span{
+        font-size: .7em;
+    }
+    .intro__link img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    .video {
+        padding-bottom: 100%;
+    }
+    .video__media{
+        display: none;
+    }
+    .intro__socialmedia {
+        right: 3%;
+    }
+    .game__center{
+        flex-direction: column;
+    }
+    .game__right{
+        order: 1;
+    }
+    .game__left{
+        order: 2;
+    }
+    .game__center{
+        gap: 30px;
+    }
+    .experience_wrap {
+        flex-direction: column;
+    }
+    .experience__content{
+        order: 1;
+    }
+    .experience__game{
+        order: 2;
+    }
+    .experience__content {
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 0;
+    }
+    .about-us__video{
+        width: calc(var(--index) * 24);
+        height: calc(var(--index) * 18);
+    }
+    .about-us__title {
+        margin-bottom: 10px;
+    }
+    .catalog__menu-list {
+        display: flex;
+        justify-content: left;
+        gap: 50px;
+        margin-bottom: 50px;
+        overflow-x: auto;
+        max-width: 100%; 
+        padding-bottom: 20px; 
+        padding-left: 20px;
+    } 
+    .gallery{
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-auto-rows: 80px;
+    }
+    .game__block-img {
+        max-width: 270px;
+    }
+    .game__tab-buttons{
+        margin-bottom: 20px;
+    }
+    .game__block-info{
+        gap: 10px;
+    }
+    .game__block {
+        margin-top: 20px;
+        gap: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .game__gallery-images{
+        gap: 10px;
+    }
+}
+@media (max-width: 620px) {
+    .header{
+        background-color: #3f2f44;
+        transform: translateX(-100%);
+        transition: all .3s;
+    }
+    .header--active{
+        transform: translateX(0);
+    }
+    .header__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5px;
+        height: 100vh;
+    }
+    .header__list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .logo{
+        position: fixed;
+        z-index: 25;
+        left: 30px;
+        top: 15px;
+    }
+    .logo img {
+        width: 50px;
+    }
+    .logo-mb{
+        display: block;
+    }
+    .logo-dp{
+        display: none;
+    }
+    .header__list-link{
+        font-size: 1.5em;
+        padding: 20px;
+    }
+    .burger__menu{
+        display: flex;
+        position: fixed;
+        z-index: 30;
+        right: 30px;
+        top: 30px;
+    }
+    .platforms {
+        margin-right: 0;
+    }
+    .section__phrase{
+        font-size: 1.5em;
+    }
+    .header-mb{
+        top: 0;
+        left: 0;
+        z-index: 50;
+        position: fixed;
+        height: 80px;
+        width: 100%;
+        transition: all .3s;
+    }
+    .header-mb__wrap{
+        position: relative;
+    }
+    .platforms__card{
+        width: 200px;
+        height: 200px;
+    }
+    .creators-section__desc {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .creator{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .creator__desc{
+        padding: 2px;
+    }
+    .creator__text img{
+        max-width: 320px;
+        width: 100%;
+    }
+    .hero-content{
+        margin-top: 50px;
+    }
+    .about-us__video iframe {
+        margin: 0 auto;
+    }
+    .chronology__block {
+        margin-bottom: 30px;
+    }
+    .chronology__img-wrap {
+        margin-bottom: 10px;
+    }
+    .chronology__text-p{
+        text-align: left;
+    }
+    .gallery {
+        margin-top: 70px;
+    }
+    .game__block-img {
+        max-width: 200px;
+    }
+    .game__block-info{
+        gap: 0;
+    }
+    .game__info-title {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .game__gallery-images {
+        gap: 4px;
+    }
+    .game__block{
+        gap: 8px;
+    }
+    .game__gallery{
+        margin-bottom: 20px;
+    }
+    .game__tab-button{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .game__top .section__phrase {
+        text-align: right;
+    }
+    .game__left-text {
+        gap: 6px;
+        margin-bottom: 36px;
+    }
+    .game__button{
+        font-size: 1em;
+        width: 170px;
+        padding: 16px 14px;
+    }
+    .experience{
+        background-position: 30% 50%;
+    }
+    .creators__img-logo{
+        max-width: 100px;
+        width: 100%;
+    }
+    .game__right{
+        box-shadow: 0px 0px 188px 50px rgb(147 143 51);
+    }
+    .game__block{
+        padding: 4px;
+    }
+    .game__info-prices{
+        gap: 8px;
+    }
+    .game__block-img {
+        max-width: 170px;
+    }
+    .game__platforms img{
+        height: 30px;
+        width: 30px;
+    }
+    .game__tab-button{
+        margin-right: 10px;
+        padding: 10px 10px;
+    }
+}
+@media(max-width: 400px){
+    .intro__link-wrap {
+        bottom: 5%;
+    }
+    .intro__socialmedia-img {
+        width: 20px;
+        height: 20px;
+    }
+    .about-us__video {
+    width: calc(var(--index) * 22);
+    height: calc(var(--index) * 16);
+    }
+    .new__info-price {
+        font-size: 1.5em;
+    }
+    .info__sale{
+        font-size: 1.3em;
+    }
+    .old__info-price{
+        font-size: 1.2em;
+    }
+    .game__block-img{
+        max-width: 150px;
+    }
+    .game__tab-button{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
