@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/main-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/style/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="/js/tictactoe.js" defer></script>
+    <script src="/js/slider.js" defer></script>
+    <script src="/libs/gsap/gsap.min.js" defer></script>
+    <script src="/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="/js/slow-scroll.js" defer></script> 
+    <script src="/js/main.js" defer></script>
+    <title>Best GameDev</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header-mb">
+            <div class="header-mb__wrap">
+            <button class="burger__menu">
+                <span class="burger__menu-line"></span>
+                <span class="burger__menu-line"></span>
+                <span class="burger__menu-line"></span>
+            </button>
+            <a class="logo logo-mb" href="/index.html">
+                <img src="/img/logo.svg" alt="">
+            </a>
+        </div>
+        </div>
+        
+        <header class="header">
+            <div class="container">
+            <div class="header__inner">
+            <a class="logo logo-dp" href="/index.html">
+                <img src="/img/logo.svg" alt="">
+            </a>
+
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="/index.html" class="header__list-link header__list-link--active">
+                        Home
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a href="/about.html" class="header__list-link">
+                        About us
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a href="/projects.html" class="header__list-link">
+                        Our projects
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a href="/news.html" class="header__list-link">
+                        News
+                    </a>
+                </li>
+                <li class="header__list-item">
+                    <a href="/gallery.html" class="header__list-link">
+                        Gallery
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        </header>
+
+
+
+    <div class="wrap">
+
+
+<main class="main">
+
+    <section class="main__section main__scroll-section">
+        <div class="intro">
+            <div class="video">
+                <video class="video__media" autoplay loop preload="auto">
+                    <source src="/video/intro-video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="intro__content">
+                <div class="container-video">
+                    <div class="intro__content-inner first-scroll">
+                        <div class="intro__text">
+                            <div class="platforms">
+                                <img class="unreal__img" src="/img/unreal.png" alt="">
+                                <span>+</span>
+                                <img class="unity__img" src="/img/unity.png" alt="">
+                            </div>
+                        <h1 class="intro-title">
+                            GameDev KHPI corporation
+                        </h1>
+                        <p class="intro__desc">
+                            The best developments are only here
+                        </p>
+                    </div>
+                    <div class="intro__link-wrap">
+                        <a class="intro__link" href="">
+                            <img src="/img/play-btn-img.png" alt="">
+                            <span>Watch trailer</span>
+                        </a>
+                    </div>
+                    <div class="intro__socialmedia">
+                        <a class="intro__socialmedia-link" href="#">
+                            <img class="intro__socialmedia-img" src="/img/discord.svg" alt="">
+                        </a>
+                        <a class="intro__socialmedia-link" href="#">
+                            <img class="intro__socialmedia-img" src="/img/instagram.svg" alt="">
+                        </a>
+                        <a class="intro__socialmedia-link" href="#">
+                            <img class="intro__socialmedia-img" src="/img/youtube.svg" alt="">
+                        </a>
+                        <a class="intro__socialmedia-link" href="#">
+                            <img class="intro__socialmedia-img" src="/img/twitter.svg" alt="">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+            <section class="section game">
+                <div class="container">
+                    <div class="game__wrap-unreal  item-scroll-l">
+
+                    <div class="game__top">
+                        <h2 class="section__title game__title">
+                            Unreal engine
+                        </h2>
+                        <p class="section__phrase game__phrase">
+                            “We work only<br> in the better platform!.”
+                        </p>
+                    </div>
+                    <div class="game__center">
+                        <div class="game__left">
+                            <div class="game__left-text">
+                                <h4 class="game__mini-title">
+                                    About:
+                                </h4>
+                                <p class="game__p">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis magni dolorem. 
+                                </p>
+                                <p class="game__p">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint deserunt, esse quo officiis repellat cupiditate cum ex consequatur, quod ducimus quis aut corporis? Obcaecati laudantium enim quos porro, laboriosam aliquam?
+                                </p>
+                                <p class="game__p">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam deleniti culpa assumenda dolore, quas eos esse corporis. Soluta quam ipsum nihil accusamus quibusdam est suscipit voluptatibus officiis fugiat aliquid.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis magni dolorem. 
+                                </p>
+                            </div>
+                            <a class="game__button">
+                                Get the Game
+                            </a>
+                        </div>
+
+                        <div class="game__right game__right-unreal">
+                            <div class="swiper mySwiper game__swiper">
+                                <div class="swiper-wrapper game__swiper-wrap">
+                                    <div class="swiper-slide game__swiper-slide">
+                                        <img src="/img/content/unreal-slide-1.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide game__swiper-slide">
+                                        <img src="/img/content/unreal-slide-2.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide game__swiper-slide">
+                                        <img src="/img/content/unreal-slide-3.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide game__swiper-slide">
+                                        <img src="/img/content/unreal-slide-4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination game__swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+
+                    <div class="game__wrap-unity  item-scroll-r">
+
+                        <div class="game__top game__top-unity">
+                            <h2 class="section__title game__title">
+                                Unity
+                            </h2>
+                        </div>
+                        <div class="game__center">
+                            <div class="game__left game__left-unity">
+                                <div class="game__left-text">
+                                    <h4 class="game__mini-title">
+                                        About:
+                                    </h4>
+                                    <p class="game__p">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis magni dolorem. 
+                                    </p>
+                                    <p class="game__p">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint deserunt, esse quo officiis repellat cupiditate cum ex consequatur, quod ducimus quis aut corporis? Obcaecati laudantium enim quos porro, laboriosam aliquam?
+                                    </p>
+                                    <p class="game__p">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam deleniti culpa assumenda dolore, quas eos esse corporis. Soluta quam ipsum nihil accusamus quibusdam est suscipit voluptatibus officiis fugiat aliquid.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis magni dolorem. 
+                                    </p>
+                                </div>
+                                <a class="game__button">
+                                    Get the Game
+                                </a>
+                            </div>
+    
+                            <div class="game__right game__right-unity">
+                                <div class="swiper mySwiper game__swiper">
+                                    <div class="swiper-wrapper game__swiper-wrap">
+                                        <div class="swiper-slide game__swiper-slide">
+                                            <img src="/img/content/unity-slide-1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide game__swiper-slide">
+                                            <img src="/img/content/unity-slide-2.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide game__swiper-slide">
+                                            <img src="/img/content/unity-slide-3.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide game__swiper-slide">
+                                            <img src="/img/content/unity-slide-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination game__swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        </div>
+
+                </div>
+            </section>
+
+
+            <section class="section experience">
+                <div class="container">
+                    <div class="experience_wrap item-scroll-l">
+
+                        <div class="experience__game">
+
+                            <div class="experience__game-area">
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="experience__content">
+                            <h2 class="section__title experiance__title">
+                                immersive experience
+                            </h2>
+                            <p class="experiance__p">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate soluta, eum doloribus dolore fuga blanditiis repellendus tempora quibusdam commodi sed non porro optio magni rem libero numquam exercitationem sapiente debitis!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, earum sit nostrum illo eligendi error. Maxime ut harum quaerat cumque obcaecati commodi suscipit repudiandae quae ipsam qui, et saepe cum!
+                            </p>
+                            <a class="game__button">
+                                Button
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section platfoms">
+                <div class="container">
+                <h2 class="section__title platfoms__title item-scroll-t">
+                    Platforms which we work
+                </h2>
+                <div class="platforms__cards item-scroll-t">
+                    <div class="platforms__card">
+                        <div class="front">
+                            <img src="/img/logo.svg" alt="" class="platforms__card-img-f">
+                        </div>
+                        <div class="back">
+                            <img src="/img/content/platform-unreal.png" alt="" class="platforms__card-img-b">
+                        </div>
+                    </div>
+                    <div class="platforms__card">
+                        <div class="front">
+                            <img src="/img/logo.svg" alt="" class="platforms__card-img-f">
+                        </div>
+                        <div class="back">
+                            <img src="/img/content/platform-unity.png" alt="" class="platforms__card-img-b">
+                        </div>
+                    </div>
+                    <div class="platforms__card">
+                        <div class="front">
+                            <img src="/img/logo.svg" alt="" class="platforms__card-img-f">
+                        </div>
+                        <div class="back">
+                            <img src="/img/content/platform-blender.png" alt="" class="platforms__card-img-b">
+                        </div>
+                    </div>
+                    <div class="platforms__card">
+                        <div class="front">
+                            <img src="/img/logo.svg" alt="" class="platforms__card-img-f">
+                        </div>
+                        <div class="back">
+                            <img src="/img/content/platform-flstudio.png" alt="" class="platforms__card-img-b">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+
+            <section class="section creators-section">
+                <div class="container">
+                    <div class="creators__wrap">
+
+                        <div class="creators-section__desc">
+                            <h2 class="section__title creators__title">
+                                The main creators
+                            </h2>
+                            <p class="creators-section__p section__phrase">
+                                We are always ready to work
+                            </p>
+                        </div>
+
+                        <div class="creators">
+
+                            <div class="creator item-scroll-lt">
+                                <img class="creator__img" src="/img/content/people.jpg" alt="">
+                                <div class="creator__text">
+                                    <p class="creator__desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit praesentium aspernatur, illum eveniet dolorum rem doloremque quibusdam exercitationem. Blanditiis veniam voluptatum debitis recusandae delectus, ipsa corrupti rem ex perferendis?
+                                    </p>
+                                    <img src="/img/border__creator.svg" alt="">
+                                    <p class="creator__name">
+                                        Andrew Kalashnikov
+                                    </p>
+                                    <p class="creator__prof">
+                                        Coder
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="creator item-scroll-rt">
+                                <img class="creator__img" src="/img/content/people.jpg" alt="">
+                                <div class="creator__text">
+                                    <p class="creator__desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit praesentium aspernatur, illum eveniet dolorum rem doloremque quibusdam exercitationem. Blanditiis veniam voluptatum debitis recusandae delectus, ipsa corrupti rem ex perferendis?
+                                    </p>
+                                    <img src="/img/border__creator.svg" alt="">
+                                    <p class="creator__name">
+                                        Andrew Kalashnikov
+                                    </p>
+                                    <p class="creator__prof">
+                                        Coder
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="creators__img-wrap item-scroll-t">
+                                <img class="creators__img-logo" src="/img/logo.svg" alt="">
+                            </div>
+                            <div class="creator item-scroll-lb">
+                                <img class="creator__img" src="/img/content/people.jpg" alt="">
+                                <div class="creator__text">
+                                    <p class="creator__desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit praesentium aspernatur, illum eveniet dolorum rem doloremque quibusdam exercitationem. Blanditiis veniam voluptatum debitis recusandae delectus, ipsa corrupti rem ex perferendis?
+                                    </p>
+                                    <img src="/img/border__creator.svg" alt="">
+                                    <p class="creator__name">
+                                        Andrew Kalashnikov
+                                    </p>
+                                    <p class="creator__prof">
+                                        Coder
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="creator item-scroll-rb">
+                                <img class="creator__img" src="/img/content/people.jpg" alt="">
+                                <div class="creator__text">
+                                    <p class="creator__desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit praesentium aspernatur, illum eveniet dolorum rem doloremque quibusdam exercitationem. Blanditiis veniam voluptatum debitis recusandae delectus, ipsa corrupti rem ex perferendis?
+                                    </p>
+                                    <img src="/img/border__creator.svg" alt="">
+                                    <p class="creator__name">
+                                        Andrew Kalashnikov
+                                    </p>
+                                    <p class="creator__prof">
+                                        Coder
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+</main>
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-wrap">
+        <img class="footer__img" src="/img/logo.svg" alt="">
+        <div class="footer__social-media">
+            <a class="footer__socialmedia-link" href="#">
+                <img class="footer__socialmedia-img" src="/img/discord.svg" alt="">
+                <span>Discord</span>
+            </a>
+            <a class="footer__socialmedia-link" href="#">
+                <img class="footer__socialmedia-img" src="/img/instagram.svg" alt="">
+                <span>Instagram</span>
+            </a>
+            <a class="footer__socialmedia-link" href="#">
+                <img class="footer__socialmedia-img" src="/img/youtube.svg" alt="">
+                <span>YouTube</span>
+            </a>
+            <a class="footer__socialmedia-link" href="#">
+                <img class="footer__socialmedia-img" src="/img/twitter.svg" alt="">
+                <span>Twitter</span>
+            </a>
+        </div>
+    </div>
+</div>
+    </footer>
+
+</div>
+
+
+</div>
+</body>
+</html>
